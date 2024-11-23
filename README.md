@@ -1,4 +1,4 @@
-# serveRestAPI
+## serveRestAPI
 Curso Udemy - Criação de testes API utilizando Postman, newman, html-extra
 
 ## O que é
@@ -16,8 +16,8 @@ newman-report-html
 
 ## Como instalar o ambiente
 1. Instale o node em seu computador [Baixe aqui](https://nodejs.org/en/download/package-manager)
-2. Instale o newman de forma global [Baixe aqui] (https://www.npmjs.com/package/newman)
-3. Instale a dependencia dos relatórios (Opcional) [newman-reporter-html](https://www.npmjs.com/package/newman-reporter-html) 
-4. 
+2. Instale o newman de forma global [Baixe aqui](https://www.npmjs.com/package/newman)
+3. Instale a dependencia dos relatórios newman-reporter-html [Baixe aqui](https://www.npmjs.com/package/newman-reporter-html) (Opcional)
+   
 ## Como rodar os testes
 ## Entre em contato
