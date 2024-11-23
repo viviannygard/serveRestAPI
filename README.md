@@ -5,10 +5,10 @@ Curso Udemy - Criação de testes API utilizando Postman, newman, html-extra
 Este repositório foi criado para o bootcamp de Teste de API Rest
 
 ## Tecnologias utilizadas
-Postman 
-node version v20.11.0
-newman version 6.2.1
-newman-report-html
+- Postman 
+- node version v20.11.0
+- newman version 6.2.1
+- newman-report-html
 
 ## Documentação
 - Análise Técnica: Analise/
@@ -20,4 +20,17 @@ newman-report-html
 3. Instale a dependencia dos relatórios newman-reporter-html [Baixe aqui](https://www.npmjs.com/package/newman-reporter-html) (Opcional)
    
 ## Como rodar os testes
+
+### Se Postman Web ou Desktop
+- Importar a collection eo environment
+- Execute o teste de forma manual ou automatizada
+
+### Se Newman
+```
+newman run ServeRest.postman_collection.json -e Ambiente_ServeRest.postman_environment.json -r htmlextra
+```
+
+  
 ## Entre em contato
+
+email: vnaygard@gmail.com
